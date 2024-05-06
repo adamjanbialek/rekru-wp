@@ -77,13 +77,13 @@ function EditComponent(props) {
                         <div
                             className="subsection-container image-with-background image-with-background--know-us-better">
                             <picture className="gradient-box" data-aos="fade-up-left" data-aos-delay="400">
-                                <img src="assets/know-us-better/gradient.jpg" />
+                                <img src={`${window.location.origin}/wp-content/themes/rekru-block/assets/know-us-better/gradient.jpg`} />
                             </picture>
                             <picture className="main-image" data-aos="zoom-in">
                                 <img src={props.attributes.imgURL} />
                             </picture>
                             <picture className="optional-image" data-aos="fade-down-right" data-aos-delay="400">
-                                <img src="assets/know-us-better/dots.png" />
+                                <img src={`${window.location.origin}/wp-content/themes/rekru-block/assets/know-us-better/dots.png`} />
                             </picture>
                         </div>
                     </div>

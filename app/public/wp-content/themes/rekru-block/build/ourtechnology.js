@@ -288,11 +288,11 @@ function EditComponent(props) {
     "data-aos-delay": "800",
     "data-aos-duration": "700"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    src: "/wp-content/themes/rekru-block/assets/tech-stack/dots.png"
+    src: `${window.location.origin}/wp-content/themes/rekru-block/assets/tech-stack/dots.png`
   })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("picture", {
     className: "rectangle"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    src: "/wp-content/themes/rekru-block/assets/tech-stack/rectangle.png"
+    src: `${window.location.origin}/wp-content/themes/rekru-block/assets/tech-stack/rectangle.png`
   }))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "subsection-container subsection-container--text"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.RichText, {

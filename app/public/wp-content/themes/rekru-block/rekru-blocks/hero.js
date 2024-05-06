@@ -64,7 +64,7 @@ function EditComponent(props) {
             <section className="hero hero--main">
                 <div className="subsection-container subsection-container--text">
                     <picture data-aos="fade-down">
-                        <img src="/wp-content/themes/rekru-block/assets/logos/odod.svg" />
+                        <img src={`${window.location.origin}/wp-content/themes/rekru-block/assets/logos/odod.svg`} />
                     </picture>
                     <RichText tagName="span" className={"subtitle"} value={props.attributes.subtitle} onChange={setSubtitle} />
                     <RichText tagName="h1" className={"section-title colorful-title"} value={props.attributes.heading} onChange={setHeading} />

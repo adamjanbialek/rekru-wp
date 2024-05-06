@@ -66,8 +66,7 @@ function EditComponent(props) {
                     <h1 className="section-title">
                         <RichText tagName="h1"  value={props.attributes.heading} onChange={setHeading} />
                         <picture className="shape shape--3">
-                            <img data-aos="fade-down" data-aos-duration="1000"
-                                 src="/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-1.svg"/>
+                            <img src={`${window.location.origin}/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-1.svg`}/>
                         </picture>
                     </h1>
                     <RichText tagName="p" className={"paragraph paragraph--medium"} value={props.attributes.textContent} onChange={setTextContent} />
@@ -77,12 +76,11 @@ function EditComponent(props) {
                         </a>
                     </div>
                     <picture className="shape shape--0">
-                        <img data-aos="fade-down-right" data-aos-duration="1000"
-                             src="/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-0.svg"/>
+                        <img src={`${window.location.origin}/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-0.svg`}/>
                     </picture>
                     <picture className="shape shape--4">
                         <img data-aos="fade-up-right" data-aos-duration="1000"
-                             src="/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-4.svg"/>
+                             src={`${window.location.origin}/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-4.svg`}/>
                     </picture>
                 </div>
                 <div className="subsection-container subsection-container--img">
@@ -90,10 +88,10 @@ function EditComponent(props) {
                         <img data-aos="zoom-in" data-aos-duration="1000" src={props.attributes.imgURL}/>
                     </picture>
                     <picture className="shape shape--1">
-                        <img data-aos="fade-right" data-aos-duration="1000" src="/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-2.svg"/>
+                        <img src={`${window.location.origin}/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-2.svg`}/>
                     </picture>
                     <picture className="shape shape--2">
-                        <img data-aos="fade-left" data-aos-duration="1000" src="/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-3.svg"/>
+                        <img src={`${window.location.origin}/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-3.svg`}/>
                     </picture>
                 </div>
             </section>

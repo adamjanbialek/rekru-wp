@@ -217,7 +217,7 @@ function EditComponent(props) {
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("picture", {
     "data-aos": "fade-down"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    src: "/wp-content/themes/rekru-block/assets/logos/odod.svg"
+    src: `${window.location.origin}/wp-content/themes/rekru-block/assets/logos/odod.svg`
   })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.RichText, {
     tagName: "span",
     className: "subtitle",

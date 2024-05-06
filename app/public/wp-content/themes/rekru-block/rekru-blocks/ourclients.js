@@ -60,7 +60,7 @@ function EditComponent(props) {
                         <img src={props.attributes.imgURL}/>
                     </picture>
                     <picture className="optional-image">
-                        <img src="/wp-content/themes/rekru-block/assets/our-clients/dots.png"/>
+                        <img src={`${window.location.origin}/wp-content/themes/rekru-block/assets/our-clients/dots.png`}/>
                     </picture>
                 </div>
                 <div className="subsection-container subsection-container--text">

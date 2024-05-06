@@ -223,9 +223,7 @@ function EditComponent(props) {
   }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("picture", {
     className: "shape shape--3"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    "data-aos": "fade-down",
-    "data-aos-duration": "1000",
-    src: "/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-1.svg"
+    src: `${window.location.origin}/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-1.svg`
   }))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.RichText, {
     tagName: "p",
     className: "paragraph paragraph--medium",
@@ -238,15 +236,13 @@ function EditComponent(props) {
   }, "GO TO FORM"))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("picture", {
     className: "shape shape--0"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    "data-aos": "fade-down-right",
-    "data-aos-duration": "1000",
-    src: "/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-0.svg"
+    src: `${window.location.origin}/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-0.svg`
   })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("picture", {
     className: "shape shape--4"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
     "data-aos": "fade-up-right",
     "data-aos-duration": "1000",
-    src: "/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-4.svg"
+    src: `${window.location.origin}/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-4.svg`
   }))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "subsection-container subsection-container--img"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("picture", {
@@ -258,15 +254,11 @@ function EditComponent(props) {
   })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("picture", {
     className: "shape shape--1"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    "data-aos": "fade-right",
-    "data-aos-duration": "1000",
-    src: "/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-2.svg"
+    src: `${window.location.origin}/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-2.svg`
   })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("picture", {
     className: "shape shape--2"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    "data-aos": "fade-left",
-    "data-aos-duration": "1000",
-    src: "/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-3.svg"
+    src: `${window.location.origin}/wp-content/themes/rekru-block/assets/hero-outsourcing/shape-3.svg`
   })))));
 }
 function SaveComponent(props) {

@@ -98,10 +98,10 @@ function EditComponent(props) {
                         </picture>
                         <picture className="optional-image" data-aos="fade-down" data-aos-delay="800"
                                  data-aos-duration="700">
-                            <img src="/wp-content/themes/rekru-block/assets/tech-stack/dots.png" />
+                            <img src={`${window.location.origin}/wp-content/themes/rekru-block/assets/tech-stack/dots.png`} />
                         </picture>
                         <picture className="rectangle">
-                            <img src="/wp-content/themes/rekru-block/assets/tech-stack/rectangle.png" />
+                            <img src={`${window.location.origin}/wp-content/themes/rekru-block/assets/tech-stack/rectangle.png`} />
                         </picture>
                     </div>
                     <div className="subsection-container subsection-container--text">

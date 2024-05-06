@@ -229,7 +229,7 @@ function EditComponent(props) {
     "data-aos": "fade-up-left",
     "data-aos-delay": "400"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    src: "/wp-content/themes/rekru-block/assets/why-outsource/why-dots.jpg"
+    src: `${window.location.origin}/wp-content/themes/rekru-block/assets/why-outsource/why-dots.jpg`
   }))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "subsection-container subsection-container--text"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.RichText, {

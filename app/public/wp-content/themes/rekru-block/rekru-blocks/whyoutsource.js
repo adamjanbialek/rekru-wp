@@ -68,7 +68,7 @@ function EditComponent(props) {
                         <img src={props.attributes.imgURL} />
                     </picture>
                     <picture className="optional-image" data-aos="fade-up-left" data-aos-delay="400">
-                        <img src="/wp-content/themes/rekru-block/assets/why-outsource/why-dots.jpg" />
+                        <img src={`${window.location.origin}/wp-content/themes/rekru-block/assets/why-outsource/why-dots.jpg`} />
                     </picture>
                 </div>
                 <div className="subsection-container subsection-container--text">

@@ -215,7 +215,7 @@ function EditComponent(props) {
   })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("picture", {
     className: "optional-image"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    src: "/wp-content/themes/rekru-block/assets/our-clients/dots.png"
+    src: `${window.location.origin}/wp-content/themes/rekru-block/assets/our-clients/dots.png`
   }))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "subsection-container subsection-container--text"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.RichText, {

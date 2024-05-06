@@ -257,7 +257,7 @@ function EditComponent(props) {
     "data-aos": "fade-up-left",
     "data-aos-delay": "400"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    src: "assets/know-us-better/gradient.jpg"
+    src: `${window.location.origin}/wp-content/themes/rekru-block/assets/know-us-better/gradient.jpg`
   })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("picture", {
     className: "main-image",
     "data-aos": "zoom-in"
@@ -268,7 +268,7 @@ function EditComponent(props) {
     "data-aos": "fade-down-right",
     "data-aos-delay": "400"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    src: "assets/know-us-better/dots.png"
+    src: `${window.location.origin}/wp-content/themes/rekru-block/assets/know-us-better/dots.png`
   })))))));
 }
 function SaveComponent(props) {
