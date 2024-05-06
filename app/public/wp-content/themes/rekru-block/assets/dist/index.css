@@ -958,7 +958,7 @@ h2 {
 }
 .hero ul li ::before {
   content: "";
-  background: url("../../../../../wp-content/themes/rekru/assets/our-clients/dot.jpg");
+  background: url("../../../../../wp-content/themes/rekru-block/assets/our-clients/dot.jpg");
   display: flex;
   height: 28px;
   width: 28px;
@@ -1059,7 +1059,7 @@ h2 {
   }
 }
 .hero .one-line-list li ::before {
-  background: url("../../../../../wp-content/themes/rekru/assets/tech-stack/dot-check.svg");
+  background: url("../../../../../wp-content/themes/rekru-block/assets/tech-stack/dot-check.svg");
   background-repeat: no-repeat;
   width: 21px;
   height: 21px;
