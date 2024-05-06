@@ -1,0 +1,65 @@
+[01-May-2024 18:56:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_post_types() in C:\Users\Adam\Local Sites\rekru\app\public\wp-content\themes\rekru\functions.php:20
+Stack trace:
+#0 C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\class-wp-hook.php(324): rekru_post_types('')
+#1 C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Adam\Local Sites\rekru\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Adam\Local Sites\rekru\app\public\wp-config.php(91): require_once('C:\\Users\\Adam\\L...')
+#5 C:\Users\Adam\Local Sites\rekru\app\public\wp-load.php(50): require_once('C:\\Users\\Adam\\L...')
+#6 C:\Users\Adam\Local Sites\rekru\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Adam\\L...')
+#7 {main}
+  thrown in C:\Users\Adam\Local Sites\rekru\app\public\wp-content\themes\rekru\functions.php on line 20
+[01-May-2024 18:56:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_post_types() in C:\Users\Adam\Local Sites\rekru\app\public\wp-content\themes\rekru\functions.php:20
+Stack trace:
+#0 C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\class-wp-hook.php(324): rekru_post_types('')
+#1 C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Adam\Local Sites\rekru\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Adam\Local Sites\rekru\app\public\wp-config.php(91): require_once('C:\\Users\\Adam\\L...')
+#5 C:\Users\Adam\Local Sites\rekru\app\public\wp-load.php(50): require_once('C:\\Users\\Adam\\L...')
+#6 C:\Users\Adam\Local Sites\rekru\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Adam\\L...')
+#7 C:\Users\Adam\Local Sites\rekru\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\Adam\\L...')
+#8 {main}
+  thrown in C:\Users\Adam\Local Sites\rekru\app\public\wp-content\themes\rekru\functions.php on line 20
+[01-May-2024 18:56:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_post_types() in C:\Users\Adam\Local Sites\rekru\app\public\wp-content\themes\rekru\functions.php:20
+Stack trace:
+#0 C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\class-wp-hook.php(324): rekru_post_types('')
+#1 C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Adam\Local Sites\rekru\app\public\wp-settings.php(695): do_action('init')
+#4 C:\Users\Adam\Local Sites\rekru\app\public\wp-config.php(91): require_once('C:\\Users\\Adam\\L...')
+#5 C:\Users\Adam\Local Sites\rekru\app\public\wp-load.php(50): require_once('C:\\Users\\Adam\\L...')
+#6 C:\Users\Adam\Local Sites\rekru\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Adam\\L...')
+#7 {main}
+  thrown in C:\Users\Adam\Local Sites\rekru\app\public\wp-content\themes\rekru\functions.php on line 20
+[03-May-2024 21:29:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_image_size(), 0 passed in C:\Users\Adam\Local Sites\rekru\app\public\wp-content\themes\rekru-block\functions.php on line 16 and at least 1 expected in C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\media.php:295
+Stack trace:
+#0 C:\Users\Adam\Local Sites\rekru\app\public\wp-content\themes\rekru-block\functions.php(16): add_image_size()
+#1 C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\class-wp-hook.php(324): rekru_features('')
+#2 C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\Adam\Local Sites\rekru\app\public\wp-settings.php(673): do_action('after_setup_the...')
+#5 C:\Users\Adam\Local Sites\rekru\app\public\wp-config.php(91): require_once('C:\\Users\\Adam\\L...')
+#6 C:\Users\Adam\Local Sites\rekru\app\public\wp-load.php(50): require_once('C:\\Users\\Adam\ in C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\media.php on line 295
+[05-May-2024 09:38:40 UTC] PHP Warning:  require(C:\Users\Adam\Local Sites\rekru\app\public\wp-content\themes\rekru-block\rekru-blocks\hero.php): failed to open stream: No such file or directory in C:\Users\Adam\Local Sites\rekru\app\public\wp-content\themes\rekru-block\functions.php on line 37
+[05-May-2024 09:38:40 UTC] PHP Stack trace:
+[05-May-2024 09:38:40 UTC] PHP   1. {main}() C:\Users\Adam\Local Sites\rekru\app\public\index.php:0
+[05-May-2024 09:38:40 UTC] PHP   2. require() C:\Users\Adam\Local Sites\rekru\app\public\index.php:17
+[05-May-2024 09:38:40 UTC] PHP   3. require_once() C:\Users\Adam\Local Sites\rekru\app\public\wp-blog-header.php:19
+[05-May-2024 09:38:40 UTC] PHP   4. include() C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\template-loader.php:106
+[05-May-2024 09:38:40 UTC] PHP   5. get_the_block_template_html() C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\template-canvas.php:12
+[05-May-2024 09:38:40 UTC] PHP   6. do_blocks() C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\block-template.php:263
+[05-May-2024 09:38:40 UTC] PHP   7. render_block() C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\blocks.php:1743
+[05-May-2024 09:38:40 UTC] PHP   8. WP_Block->render() C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\blocks.php:1705
+[05-May-2024 09:38:40 UTC] PHP   9. JSXBlock->ourRenderCallback() C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\class-wp-block.php:463
+[05-May-2024 09:38:40 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\Adam\Local Sites\rekru\app\public/wp-content/themes/rekru-block/rekru-blocks/hero.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Adam\Local Sites\rekru\app\public\wp-content\themes\rekru-block\functions.php on line 37
+[05-May-2024 09:38:40 UTC] PHP Stack trace:
+[05-May-2024 09:38:40 UTC] PHP   1. {main}() C:\Users\Adam\Local Sites\rekru\app\public\index.php:0
+[05-May-2024 09:38:40 UTC] PHP   2. require() C:\Users\Adam\Local Sites\rekru\app\public\index.php:17
+[05-May-2024 09:38:40 UTC] PHP   3. require_once() C:\Users\Adam\Local Sites\rekru\app\public\wp-blog-header.php:19
+[05-May-2024 09:38:40 UTC] PHP   4. include() C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\template-loader.php:106
+[05-May-2024 09:38:40 UTC] PHP   5. get_the_block_template_html() C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\template-canvas.php:12
+[05-May-2024 09:38:40 UTC] PHP   6. do_blocks() C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\block-template.php:263
+[05-May-2024 09:38:40 UTC] PHP   7. render_block() C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\blocks.php:1743
+[05-May-2024 09:38:40 UTC] PHP   8. WP_Block->render() C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\blocks.php:1705
+[05-May-2024 09:38:40 UTC] PHP   9. JSXBlock->ourRenderCallback() C:\Users\Adam\Local Sites\rekru\app\public\wp-includes\class-wp-block.php:463
